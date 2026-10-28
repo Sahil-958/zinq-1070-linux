@@ -1,0 +1,22 @@
+# Flutter build artifacts
+gui/build/
+gui/.dart_tool/
+gui/.flutter-plugins-dependencies
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+*.egg-info/
+dist/
+build/
+
+# IDE & OS
+.DS_Store
+*.swp
+*.iml
+.idea/
+.vscode/

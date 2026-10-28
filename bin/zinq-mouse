@@ -1,0 +1,15 @@
+#!/usr/bin/env python3
+"""
+Zinq ZQGM-1070 Gaming Mouse CLI & GUI Controller.
+"""
+import sys
+from pathlib import Path
+
+# Add project root to sys.path
+pkg_dir = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(pkg_dir))
+
+from zinq_mouse.cli import main
+
+if __name__ == "__main__":
+    sys.exit(main())
